@@ -2,9 +2,12 @@
 
 This module provides three small scripts to create, read and delete cookies. Cookies are small strings of data that are stored in the browser and are passed back and forth between web browsers and web servers. Cookies can be created in the browser using Javascript or on the server and can be useful to keep state or store user preferences. 
 
-Cookies created using this module can only be read by the application they were written in. Tracking cookies (third-party cookies) cannot be written using this module, only first-party cookies (SameSite=strict). This module also only supports secure cookie, cookies that can only be transmitted over an encrypted connection (Secure=true). 
-
 More on [Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)
+
+## Features
+1. Cookies created using this module can only be read by the application they were written in. 
+2. Tracking cookies (third-party cookies) cannot be written using this module, only first-party cookies (SameSite=strict). 
+3. This module also only supports secure cookies. Secure cookies can only be transmitted over an encrypted connection (Secure=true). 
 
 ## Version
 1.0 - Initial
