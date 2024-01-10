@@ -15,7 +15,7 @@ More on [Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)
    1. ExpiryDays
    2. Name
    3. Value
-3. Drag a Javascript action into the script and paste the Javascript below unaltered into the action (you can ignore the Stadium validation "Invalid Javascript was detected" error message)
+3. Drag a Javascript action into the script and paste the Javascript below unaltered into the action
 ```javascript
 /* Stadium Script v1.0 */
 let name = ~.Parameters.Input.Name;
@@ -59,7 +59,7 @@ document.cookie = updatedCookie;
    1. Name
 3. Add the output parameter below to the script
    1. CookieValue
-4. Drag a Javascript action into the script and paste the Javascript below unaltered into the action (you can ignore the Stadium validation "Invalid Javascript was detected" error message)
+4. Drag a Javascript action into the script and paste the Javascript below unaltered into the action
 ```javascript
 /* Stadium Script v1.0 */
 let name = ~.Parameters.Input.Name;
@@ -83,7 +83,7 @@ return matches ? decodeURIComponent(matches[1]) : undefined;
 1. Create a Global Script and name it "DeleteCookie"
 2. Add the input parameters below to the script
    1. Name
-3. Drag a Javascript action into the script and paste the Javascript below unaltered into the action (you can ignore the Stadium validation "Invalid Javascript was detected" error message)
+3. Drag a Javascript action into the script and paste the Javascript below unaltered into the action
 ```javascript
 /* Stadium Script v1.0 */
 let name = ~.Parameters.Input.Name;
