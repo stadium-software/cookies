@@ -9,6 +9,10 @@ More on [Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)
 2. Tracking cookies (third-party cookies) cannot be written using this module, only first-party cookies (SameSite=strict). 
 3. This module also only supports secure cookies. Secure cookies can only be transmitted over an encrypted connection (Secure=true). 
 
+
+https://github.com/stadium-software/cookies/assets/2085324/e5b89fd1-d443-4fa3-b74d-6571f3362699
+
+
 ## Version
 1.0 - Initial
 
