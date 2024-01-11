@@ -30,7 +30,7 @@ if (pathParts.length > 2) {
     path = pathParts[1];
 }
 let options = {
-	path: '/' + path,
+	path: '/' + encodeURIComponent(path),
 	secure: true,
     samesite: "strict",
     domain: window.location.hostname,
