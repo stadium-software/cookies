@@ -24,7 +24,7 @@ https://github.com/stadium-software/cookies/assets/2085324/e5b89fd1-d443-4fa3-b7
    3. Value
 3. Drag a Javascript action into the script and paste the Javascript below unaltered into the action
 ```javascript
-/* Stadium Script v1.0 */
+/* Stadium Script v1.0 https://github.com/stadium-software/cookies */
 let name = ~.Parameters.Input.Name;
 let value = ~.Parameters.Input.Value;
 let exdays = ~.Parameters.Input.ExpiryDays || 100;
@@ -68,7 +68,7 @@ document.cookie = updatedCookie;
    1. CookieValue
 4. Drag a Javascript action into the script and paste the Javascript below unaltered into the action
 ```javascript
-/* Stadium Script v1.0 */
+/* Stadium Script v1.0 https://github.com/stadium-software/cookies */
 let name = ~.Parameters.Input.Name;
 let matches = document.cookie.match(new RegExp(
 "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
@@ -92,7 +92,7 @@ return matches ? decodeURIComponent(matches[1]) : undefined;
    1. Name
 3. Drag a Javascript action into the script and paste the Javascript below unaltered into the action
 ```javascript
-/* Stadium Script v1.0 */
+/* Stadium Script v1.0 https://github.com/stadium-software/cookies */
 let name = ~.Parameters.Input.Name;
 let exdays = -1;
 let options = {
